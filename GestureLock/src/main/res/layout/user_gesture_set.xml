@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_match">
+
+    <LinearLayout
+        style="@style/match_match"
+        android:background="@color/background_color">
+
+        <View
+            style="@style/user_safety_line"
+            android:layout_marginTop="20dp" />
+
+        <RelativeLayout style="@style/rl_user_item">
+
+            <TextView
+                android:id="@+id/tv_kqssmm"
+                style="@style/tv_user_item"
+                android:text="@string/user_kqssmm" />
+
+            <com.dysen.gesture.views.SwitchView
+                android:id="@+id/view_switch_kqssmm"
+                style="@style/sv_user" />
+        </RelativeLayout>
+
+        <View style="@style/user_safety_line" />
+
+        <LinearLayout
+            android:id="@+id/ll_czssmm"
+            style="@style/match_wrap"
+            android:visibility="visible">
+
+            <View
+                style="@style/user_safety_line"
+                android:layout_marginTop="16dp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_czssmm"
+                style="@style/rl_user_item">
+
+                <TextView
+                    style="@style/tv_user_item"
+                    android:text="@string/user_czssmm" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/ico_arrowright" />
+            </RelativeLayout>
+
+            <View
+                style="@style/user_safety_line"
+                android:layout_marginTop="16dp" />
+
+            <LinearLayout
+                android:id="@+id/rl_szcssj"
+                style="@style/rl_user_item"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/tv_user_item"
+                    android:text="@string/user_szcssj" />
+
+                <com.dysen.nice_spinner.views.NiceSpinner
+                    android:id="@+id/nice_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="8dp"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

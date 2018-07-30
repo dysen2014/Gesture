@@ -1,0 +1,5 @@
+<LinearLayout
+    style="@style/match_match"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/activity_gesturte"/>
+</LinearLayout>

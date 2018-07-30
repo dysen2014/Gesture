@@ -1,0 +1,164 @@
+<resources>
+    <style name="layout_user_item" parent="match_wrap_h">
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+    <style name="layout_user_head_ll" parent="match_wrap_h">
+    </style>
+    <style name="layout_user_head_img" parent="wrap_wrap_cv">
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="tv_user_item" parent="tv_user_black_12">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <style name="img_user_login_r" parent="wrap_wrap">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="ed_user_login" parent="match_wrap">
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_hint</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">100</item>
+    </style>
+    <style name="ed_user_safety" parent="match_match">
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_gray</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">100</item>
+    </style>
+    <style name="tv_asset_gray" parent="tv_user_gray_12">
+        <item name="android:textColorHint">@color/text_color_gray</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="tv_asset_black" parent="tv_user_black_12">
+        <item name="android:textColorHint">@color/text_color_gray</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="tv_asset_red" parent="tv_user_black_12">
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="ed_asset" parent="match_match">
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_gray</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="bnt_verify_code">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">26dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textColor">@color/tv_click_textcolor_w_to_h</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="sv_user">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="but_user_safety" parent="match_wrap">
+        <item name="android:layout_height">@dimen/but_height</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/tv_click_textcolor_w_to_h</item>
+    </style>
+    <style name="but_user_content" parent="match_wrap">
+        <item name="android:layout_height">@dimen/but_height</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/tv_click_textcolor_w_to_h</item>
+    </style>
+    <style name="but_user_exit" parent="match_wrap">
+        <item name="android:layout_height">@dimen/but_height</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/tv_click_textcolor_w_to_h</item>
+    </style>
+    <style name="but_user_asset" parent="match_wrap">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_color_white</item>
+    </style>
+    <style name="ed_user_content" parent="match_wrap">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_hint</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:minLines">10</item>
+        <item name="android:gravity">left</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+    </style>
+
+    <style name="ll_user_identity" parent="match_wrap_h">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="txt_identity_msg" parent="tv_user_gray_12">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+    <style name="img_identity_line" parent="match_wrap">
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="label_identity_note" parent="tv_user_black_12">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+    <style name="ll_ll_img_user_identity" parent="wrap_wrap">
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="ll_ll_img_user_identity_picture" parent="ll_ll_img_user_identity">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="ll_ll_tv_black_user_identity" parent="tv_user_black_12">
+    </style>
+    <style name="ll_ll_tv_black_user_identity_picture" parent="tv_user_black_12">
+    </style>
+    <style name="ll_ll_tv_gray_user_identity" parent="tv_user_gray_12">
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="bnt_user_select" parent="match_wrap">
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <color name="tv_click_textcolor_w_to_h">#123456</color>
+    <dimen name="but_height">40dp</dimen>
+</resources>

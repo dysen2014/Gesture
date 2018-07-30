@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_ssmmsz">Pattern</string>
+    <string name="user_ssmmhz">Draw Pattern</string>
+    <string name="user_dlyzsz">Login Verification</string>
+    <string name="user_ssmmsz_hint">Draw your pattern to better secure your account.</string>
+    <string name="user_kqssmm">Open pattern</string>
+    <string name="user_czssmm">Reset draw pattern</string>
+    <string name="user_cxszmm">Reset set pattern</string>
+    <string name="user_qszssmm">Please draw pattern</string>
+    <string name="user_ssmmcw">Draw pattern is wrong.</string>
+    <string name="user_ssmmszcg">Draw pattern is successfully.</string>
+    <string name="user_zsljsd">Draw pattern at least 4 points.</string>
+    <string name="user_qzchzmm">Draw pattern again</string>
+    <string name="user_yschzbyz">No match.Please draw it again.</string>
+
+    <string name="user_qhdssmm">Please slide pattern</string>
+    <string name="user_czmm">Reset Password</string>
+    <string name="user_wjmm">Frogot password</string>
+    <string name= "tip_more_chances" > Draw pattern is wrong: you can also try %s times </string>
+    <string name= "please_try_again_after_a_few_seconds" > Draw pattern is wrong: please retry after %sS</string>
+    <string name="app_name">Gesture</string>
+    <string name="user_szcssj">Time Out(Unit：M)</string>
+</resources>
