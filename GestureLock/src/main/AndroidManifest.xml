@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tool:replace="android:label,android:theme, android:icon， android:name">
+        tool:replace="android:label,android:theme, android:icon, android:name">
         <activity android:name=".activity.GestureAty"
             android:launchMode="singleTask"
             android:screenOrientation="portrait">
